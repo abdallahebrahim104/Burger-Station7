@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Menu | Burger Station</title>
+  <meta name="description" content="Browse the full Burger Station menu — flame-grilled beef burgers, chicken burgers, sides, and drinks. Fresh, handcrafted, made to order.">
+  <link rel="canonical" href="/menu.html">
+  <link rel="icon" href="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=64&h=64&fit=crop&auto=format" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="Burger Station home">
+        <span class="brand-mark" aria-hidden="true">🍔</span>
+        Burger<span>Station</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <a href="index.html" data-nav="index">Home</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="menu.html" data-nav="menu">Menu</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <a href="contact.html" class="btn btn-primary">Order Now</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMobile">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <nav class="nav-mobile" id="navMobile" aria-label="Mobile navigation">
+      <a href="index.html" data-nav="index">Home</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="menu.html" data-nav="menu">Menu</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+      <a href="contact.html" class="btn btn-primary">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================ PAGE HERO ============================ -->
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">The Full Board</span>
+        <h1 class="section-heading" style="margin-inline:auto">Every Platform, <em>One Menu</em></h1>
+        <p class="section-sub" style="margin-inline:auto">Four platforms, one grill. Pick a category below to see what's departing next.</p>
+        <p class="breadcrumb"><a href="index.html">Home</a> / Menu</p>
+      </div>
+    </section>
+
+    <!-- ============================ MENU TABS ============================ -->
+    <section class="section" style="padding-top:1rem">
+      <div class="container">
+
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab is-active" data-tab="beef" role="tab" aria-selected="true" aria-controls="panel-beef">
+            <span class="plat">01</span> Beef
+          </button>
+          <button class="menu-tab" data-tab="chicken" role="tab" aria-selected="false" aria-controls="panel-chicken">
+            <span class="plat">02</span> Chicken
+          </button>
+          <button class="menu-tab" data-tab="sides" role="tab" aria-selected="false" aria-controls="panel-sides">
+            <span class="plat">03</span> Sides
+          </button>
+          <button class="menu-tab" data-tab="drinks" role="tab" aria-selected="false" aria-controls="panel-drinks">
+            <span class="plat">04</span> Drinks
+          </button>
+        </div>
+
+        <!-- BEEF -->
+        <div class="menu-panel is-active" id="panel-beef" data-panel="beef" role="tabpanel">
+          <div class="menu-list">
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=200&h=200&fit=crop&auto=format" alt="Station Classic double cheeseburger" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Station Classic</h3><span class="price">$9.90</span></div>
+                <p>Double beef patty, aged cheddar, lettuce, tomato, house pickles, station sauce.</p>
+                <div class="badges"><span>Best Seller</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1610440042657-612c34d95e9f?w=200&h=200&fit=crop&auto=format" alt="Platform Bacon burger with onion rings" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Platform Bacon</h3><span class="price">$11.50</span></div>
+                <p>Applewood bacon, smoked gouda, crispy onion rings, bourbon BBQ glaze.</p>
+                <div class="badges"><span>Smoky</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&h=200&fit=crop&auto=format" alt="Red Signal spicy jalapeno burger" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Red Signal</h3><span class="price">$10.90</span></div>
+                <p>Pepper-jack cheese, pickled jalape&ntilde;os, chipotle mayo, crispy fried onions.</p>
+                <div class="badges"><span>Spicy</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=200&h=200&fit=crop&auto=format" alt="Truffle mushroom Swiss burger" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Express Truffle</h3><span class="price">$13.20</span></div>
+                <p>Truffle aioli, sauteed mushrooms, Swiss cheese, caramelized onions.</p>
+                <div class="badges"><span>Premium</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=200&h=200&fit=crop&auto=format" alt="Double decker triple stack burger" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Triple Track</h3><span class="price">$14.90</span></div>
+                <p>Triple beef patty, triple cheddar, all the classic fixings. For the very hungry.</p>
+                <div class="badges"><span>Big Appetite</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=200&h=200&fit=crop&auto=format" alt="Classic single beef cheeseburger" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Local Single</h3><span class="price">$7.90</span></div>
+                <p>A single beef patty done right: cheese, pickles, mustard, ketchup.</p>
+                <div class="badges"><span>Value</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CHICKEN -->
+        <div class="menu-panel" id="panel-chicken" data-panel="chicken" role="tabpanel" hidden>
+          <div class="menu-list">
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=200&h=200&fit=crop&auto=format" alt="Crispy fried chicken burger with slaw" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Crispy Conductor</h3><span class="price">$9.50</span></div>
+                <p>Buttermilk-fried chicken thigh, crunchy slaw, pickles, spicy mayo.</p>
+                <div class="badges"><span>Crispy</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1615297928064-24977384d0da?w=200&h=200&fit=crop&auto=format" alt="Grilled chicken burger with avocado" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Grilled Platform</h3><span class="price">$9.90</span></div>
+                <p>Char-grilled chicken breast, avocado, lettuce, tomato, herb yogurt sauce.</p>
+                <div class="badges"><span>Lighter</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=200&h=200&fit=crop&auto=format" alt="Nashville hot chicken burger" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Nashville Express</h3><span class="price">$10.90</span></div>
+                <p>Nashville hot fried chicken, cool ranch slaw, dill pickle chips.</p>
+                <div class="badges"><span>Spicy</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=200&h=200&fit=crop&auto=format" alt="Honey glazed chicken burger" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Honey Signal</h3><span class="price">$10.50</span></div>
+                <p>Honey-glazed fried chicken, smoked bacon, Swiss cheese, brioche bun.</p>
+                <div class="badges"><span>Sweet &amp; Smoky</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIDES -->
+        <div class="menu-panel" id="panel-sides" data-panel="sides" role="tabpanel" hidden>
+          <div class="menu-list">
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=200&h=200&fit=crop&auto=format" alt="Crispy golden french fries" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Station Fries</h3><span class="price">$4.50</span></div>
+                <p>Hand-cut, twice-fried, tossed with station seasoning salt.</p>
+                <div class="badges"><span>Classic</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1639024471283-03518883512d?w=200&h=200&fit=crop&auto=format" alt="Loaded cheese fries with bacon" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Loaded Track Fries</h3><span class="price">$7.90</span></div>
+                <p>Cheddar sauce, bacon bits, scallions, jalape&ntilde;o ranch drizzle.</p>
+                <div class="badges"><span>Shareable</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1639024471419-1d0e34c7e0e4?w=200&h=200&fit=crop&auto=format" alt="Crispy golden onion rings" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Onion Ring Stack</h3><span class="price">$5.50</span></div>
+                <p>Beer-battered onion rings, served with smoked chipotle dip.</p>
+                <div class="badges"><span>Crunchy</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=200&h=200&fit=crop&auto=format" alt="Fresh coleslaw side salad" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Platform Slaw</h3><span class="price">$3.90</span></div>
+                <p>Crisp cabbage and carrot slaw in a light, tangy house dressing.</p>
+                <div class="badges"><span>Fresh</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DRINKS -->
+        <div class="menu-panel" id="panel-drinks" data-panel="drinks" role="tabpanel" hidden>
+          <div class="menu-list">
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=200&h=200&fit=crop&auto=format" alt="Classic chocolate milkshake" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Chocolate Express</h3><span class="price">$5.90</span></div>
+                <p>Thick hand-spun chocolate shake, whipped cream, cocoa dust.</p>
+                <div class="badges"><span>Shake</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=200&h=200&fit=crop&auto=format" alt="Fresh craft lemonade" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Platform Lemonade</h3><span class="price">$3.90</span></div>
+                <p>Fresh-squeezed lemonade, lightly sweetened, served over ice.</p>
+                <div class="badges"><span>Refreshing</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=200&h=200&fit=crop&auto=format" alt="Iced cola soft drink" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Classic Fountain Soda</h3><span class="price">$2.90</span></div>
+                <p>Cola, lemon-lime, or root beer, poured fresh over ice.</p>
+                <div class="badges"><span>Classic</span></div>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="thumb"><img src="https://images.unsplash.com/photo-1517959105821-eaf2591984ca?w=200&h=200&fit=crop&auto=format" alt="Cold brew iced coffee" loading="lazy"></div>
+              <div class="info">
+                <div class="row"><h3>Station Cold Brew</h3><span class="price">$4.20</span></div>
+                <p>Slow steeped cold brew coffee, served black or with cream.</p>
+                <div class="badges"><span>Bold</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section section--soft" style="padding-top:0">
+      <div class="container">
+        <div class="cta-band" data-reveal>
+          <h2>Can't Decide? Build Your Own Stack.</h2>
+          <a href="contact.html" class="btn btn-primary">Talk To Our Team</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-mark" aria-hidden="true">🍔</span>
+            Burger<span>Station</span>
+          </a>
+          <p>Flame-grilled, handcrafted burgers made fresh daily. Your neighborhood station for the perfect stack.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="Twitter / X">𝕏</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li><a href="mailto:hello@burgerstation.com">hello@burgerstation.com</a></li>
+            <li><a href="contact.html">42 Grill Avenue, Downtown</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Opening Hours</h4>
+          <ul class="hours-list">
+            <li><span>Mon &ndash; Thu</span><span>11:00 &ndash; 22:00</span></li>
+            <li><span>Fri &ndash; Sat</span><span>11:00 &ndash; 23:30</span></li>
+            <li><span>Sunday</span><span>12:00 &ndash; 21:00</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year"></span> Burger Station. All rights reserved.</span>
+        <span>Crafted with fire &amp; flour.</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="main.js"></script>
+</body>
+</html>

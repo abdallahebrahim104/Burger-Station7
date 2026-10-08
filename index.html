@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger Station | Premium Handcrafted Burgers</title>
+  <meta name="description" content="Burger Station is a premium burger house serving flame-grilled, handcrafted burgers made with quality ingredients. Order online or visit us today.">
+  <meta name="keywords" content="burger restaurant, premium burgers, gourmet burgers, Burger Station">
+  <link rel="canonical" href="/index.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Burger Station | Premium Handcrafted Burgers">
+  <meta property="og:description" content="Flame-grilled, handcrafted burgers made with quality ingredients.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/Documentation/sta.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================ HEADER ============================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container">
+      <a href="index.html" class="brand" aria-label="Burger Station home">
+        <span class="brand-mark" aria-hidden="true">🍔</span>
+        Burger<span>Station</span>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Primary navigation">
+        <a href="index.html" data-nav="index">Home</a>
+        <a href="about.html" data-nav="about">About</a>
+        <a href="menu.html" data-nav="menu">Menu</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="menu.html" class="btn btn-primary">Order Now</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMobile">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="nav-mobile" id="navMobile" aria-label="Mobile navigation">
+      <a href="index.html" data-nav="index">Home</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="menu.html" data-nav="menu">Menu</a>
+      <a href="contact.html" data-nav="contact">Contact</a>
+      <a href="menu.html" class="btn btn-primary">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============================ HERO ============================ -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-copy" data-reveal>
+          <span class="hero-eyebrow">Now Grilling &middot; Est. 2014</span>
+          <h1>Stacked high.<br>Grilled <em>right.</em><br>Served hot.</h1>
+          <p class="hero-sub">Burger Station fires up flame-grilled patties, toasted brioche buns, and small-batch sauces every single day. No shortcuts, no freezer bags &mdash; just an open flat-top and a menu built for burger people.</p>
+          <div class="hero-actions">
+            <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+            <a href="contact.html" class="btn btn-ghost">Reserve a Table</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>10+</strong><span>Years Grilling</span></div>
+            <div><strong>40k+</strong><span>Burgers Served</span></div>
+            <div><strong>4.9</strong><span>Average Rating</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="hero-plate">
+            <img src="/Documentation/ee.avif" alt="Signature Burger Station stacked cheeseburger with melted cheddar and fresh toppings" loading="eager">
+          </div>
+          <div class="hero-badge">Chef's<strong>Pick</strong>Daily</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ TICKER ============================ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>100% Angus Beef</span>
+        <span>Flame-Grilled Daily</span>
+        <span>Toasted Brioche Buns</span>
+        <span>Small-Batch Sauces</span>
+        <span>Locally Sourced Produce</span>
+        <span>100% Angus Beef</span>
+        <span>Flame-Grilled Daily</span>
+        <span>Toasted Brioche Buns</span>
+        <span>Small-Batch Sauces</span>
+        <span>Locally Sourced Produce</span>
+      </div>
+    </div>
+
+    <!-- ============================ FEATURED BURGERS ============================ -->
+    <section class="section" id="featured">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="eyebrow">Platform 01 &mdash; Fan Favorites</span>
+            <h2 class="section-heading">Our Most-Ordered <em>Builds</em></h2>
+            <p class="section-sub">Every patty is hand-formed and seared on the flat-top to order. These four leave the station first, every single service.</p>
+          </div>
+          <a href="menu.html" class="btn btn-ghost">See Full Menu</a>
+        </div>
+
+        <div class="card-grid" data-reveal>
+          <article class="burger-card">
+            <div class="media">
+              <img src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=600&h=450&fit=crop&auto=format" alt="Station Classic double cheeseburger with lettuce, tomato and pickles" loading="lazy">
+              <span class="tag">Best Seller</span>
+            </div>
+            <div class="body">
+              <h3>Station Classic <span class="price">$9.90</span></h3>
+              <p>Double beef patty, aged cheddar, shredded lettuce, vine tomato, house pickles, station sauce.</p>
+              <div class="card-foot">
+                <span class="stars">★★★★★</span>
+                <span>612 orders</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="burger-card">
+            <div class="media">
+              <img src="https://images.unsplash.com/photo-1610440042657-612c34d95e9f?w=600&h=450&fit=crop&auto=format" alt="Smoky BBQ bacon burger with onion rings" loading="lazy">
+              <span class="tag">Smoky</span>
+            </div>
+            <div class="body">
+              <h3>Platform Bacon <span class="price">$11.50</span></h3>
+              <p>Applewood bacon, smoked gouda, crispy onion rings, bourbon BBQ glaze on a charred bun.</p>
+              <div class="card-foot">
+                <span class="stars">★★★★★</span>
+                <span>498 orders</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="burger-card">
+            <div class="media">
+              <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=450&fit=crop&auto=format" alt="Spicy jalapeno burger with pepper jack cheese" loading="lazy">
+              <span class="tag">Spicy</span>
+            </div>
+            <div class="body">
+              <h3>Red Signal <span class="price">$10.90</span></h3>
+              <p>Pepper-jack cheese, pickled jalape&ntilde;os, chipotle mayo and a crunch of fried onions.</p>
+              <div class="card-foot">
+                <span class="stars">★★★★☆</span>
+                <span>355 orders</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ HOW IT WORKS ============================ -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="eyebrow" style="color:var(--color-amber-deep)">How It Works</span>
+            <h2 class="section-heading">From Grill To <em>Your Table</em></h2>
+            <p class="section-sub">Whether you're dining in, picking up, or booking the private booth &mdash; the process is the same short, simple ride.</p>
+          </div>
+        </div>
+        <div class="steps" data-reveal>
+          <div class="step">
+            <span class="num">01</span>
+            <h3>Pick Your Build</h3>
+            <p>Browse the menu and choose beef, chicken, or a build-your-own combo.</p>
+          </div>
+          <div class="step">
+            <span class="num">02</span>
+            <h3>We Fire the Grill</h3>
+            <p>Every patty is seared to order &mdash; nothing sits under a heat lamp.</p>
+          </div>
+          <div class="step">
+            <span class="num">03</span>
+            <h3>Stack &amp; Wrap</h3>
+            <p>Fresh buns are toasted and stacked right before it reaches you.</p>
+          </div>
+          <div class="step">
+            <span class="num">04</span>
+            <h3>Served Hot</h3>
+            <p>Dine in, takeout, or delivery &mdash; on the table in minutes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ TESTIMONIALS ============================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <div>
+            <span class="eyebrow">Platform 02 &mdash; Word on the Street</span>
+            <h2 class="section-heading">What Our <em>Regulars</em> Say</h2>
+          </div>
+        </div>
+        <div class="testimonial-grid" data-reveal>
+          <div class="testimonial">
+            <span class="stars">★★★★★</span>
+            <p>"Best burger in the city, hands down. The bacon burger with onion rings is worth the trip alone."</p>
+            <div class="who">
+              <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&h=100&fit=crop&auto=format" alt="Portrait of customer Amira H." loading="lazy">
+              <div><strong>Amira H.</strong><span>Local Guide</span></div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <span class="stars">★★★★★</span>
+            <p>"Buns are always toasted right, patties are always juicy. Consistency like this is rare."</p>
+            <div class="who">
+              <img src="https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?w=100&h=100&fit=crop&auto=format" alt="Portrait of customer Karim T." loading="lazy">
+              <div><strong>Karim T.</strong><span>Food Blogger</span></div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <span class="stars">★★★★★</span>
+            <p>"Took the whole family, kids loved the chicken burgers and staff were fantastic with the reservation."</p>
+            <div class="who">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&auto=format" alt="Portrait of customer Layla M." loading="lazy">
+              <div><strong>Layla M.</strong><span>Regular Guest</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ CTA BAND ============================ -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta-band" data-reveal>
+          <h2>Hungry Already? The Grill's Hot.</h2>
+          <a href="contact.html" class="btn btn-primary">Book a Table</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <span class="brand-mark" aria-hidden="true">🍔</span>
+            Burger<span>Station</span>
+          </a>
+          <p>Flame-grilled, handcrafted burgers made fresh daily. Your neighborhood station for the perfect stack.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="Twitter / X">𝕏</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-heading">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+15551234567">+1 (555) 123-4567</a></li>
+            <li><a href="mailto:hello@burgerstation.com">hello@burgerstation.com</a></li>
+            <li><a href="contact.html">42 Grill Avenue, Downtown</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Opening Hours</h4>
+          <ul class="hours-list">
+            <li><span>Mon &ndash; Thu</span><span>11:00 &ndash; 22:00</span></li>
+            <li><span>Fri &ndash; Sat</span><span>11:00 &ndash; 23:30</span></li>
+            <li><span>Sunday</span><span>12:00 &ndash; 21:00</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year"></span> Burger Station. All rights reserved.</span>
+        <span>Crafted with fire &amp; flour.</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src=" main.js"></script>
+</body>
+</html>
